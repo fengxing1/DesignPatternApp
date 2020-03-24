@@ -23,6 +23,10 @@
 #import "BuilderDirector.h"
 #import "BuilderDirector.h"
 
+#import "RemoteConrol.h"
+#import "RemoteLoader.h"
+#import "MenuHandler.h"
+
 @interface ViewController ()
 
 @end
@@ -32,7 +36,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self exampleBuilder];
+    [self exampleComponent];
     
 }
 
@@ -94,4 +98,16 @@
     NSLog(@"%@",str);
 }
 
+//命令模式
+- (void)exampleCommand {
+    RemoteConrol *control = [[RemoteConrol alloc] init];
+    RemoteLoader *loader = [[RemoteLoader alloc] initWithControl:control];
+    [control executeOnWithIndex:0];
+    [control exectuteOffWithIndex:0];
+}
+
+//组合模式
+- (void)exampleComponent {
+    [[[MenuHandler alloc] init] handle];
+}
 @end

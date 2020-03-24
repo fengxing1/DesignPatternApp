@@ -43,6 +43,20 @@
 		8BD8F6C52386372D0054CFD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD8F6C42386372D0054CFD9 /* main.m */; };
 		8BD8F6CF2386372D0054CFD9 /* DesignPatternAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD8F6CE2386372D0054CFD9 /* DesignPatternAppTests.m */; };
 		8BD8F6DA2386372D0054CFD9 /* DesignPatternAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD8F6D92386372D0054CFD9 /* DesignPatternAppUITests.m */; };
+		8BDFA5522429B5C600B761BA /* Light.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA5512429B5C600B761BA /* Light.m */; };
+		8BDFA5552429B6BF00B761BA /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA5542429B6BF00B761BA /* Video.m */; };
+		8BDFA5592429E17A00B761BA /* LightOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA5582429E17A00B761BA /* LightOnCommand.m */; };
+		8BDFA55C2429E5EF00B761BA /* LightOffCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA55B2429E5EF00B761BA /* LightOffCommand.m */; };
+		8BDFA55F2429E75100B761BA /* VideoPlayCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA55E2429E75100B761BA /* VideoPlayCommand.m */; };
+		8BDFA5622429EA4F00B761BA /* VideoCloseCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA5612429EA4F00B761BA /* VideoCloseCommand.m */; };
+		8BDFA5652429EED300B761BA /* RemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA5642429EED300B761BA /* RemoteControl.m */; };
+		8BDFA5682429EEED00B761BA /* EmptyCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA5672429EEED00B761BA /* EmptyCommand.m */; };
+		8BDFA56C2429EF4F00B761BA /* RemoteConrol.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA56B2429EF4F00B761BA /* RemoteConrol.m */; };
+		8BDFA56F2429F5E000B761BA /* RemoteLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA56E2429F5E000B761BA /* RemoteLoader.m */; };
+		8BDFA573242A070F00B761BA /* MenuComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA572242A070F00B761BA /* MenuComponent.m */; };
+		8BDFA579242A094F00B761BA /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA578242A094F00B761BA /* Menu.m */; };
+		8BDFA57C242A1C0C00B761BA /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA57B242A1C0C00B761BA /* MenuItem.m */; };
+		8BDFA57F242A260500B761BA /* MenuHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA57E242A260500B761BA /* MenuHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,6 +152,35 @@
 		8BD8F6D52386372D0054CFD9 /* DesignPatternAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD8F6D92386372D0054CFD9 /* DesignPatternAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPatternAppUITests.m; sourceTree = "<group>"; };
 		8BD8F6DB2386372D0054CFD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BDFA5502429B5C600B761BA /* Light.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Light.h; sourceTree = "<group>"; };
+		8BDFA5512429B5C600B761BA /* Light.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Light.m; sourceTree = "<group>"; };
+		8BDFA5532429B6BF00B761BA /* Video.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		8BDFA5542429B6BF00B761BA /* Video.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		8BDFA5562429DD8000B761BA /* SwitchCommondInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchCommondInterface.h; sourceTree = "<group>"; };
+		8BDFA5572429E17A00B761BA /* LightOnCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightOnCommand.h; sourceTree = "<group>"; };
+		8BDFA5582429E17A00B761BA /* LightOnCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightOnCommand.m; sourceTree = "<group>"; };
+		8BDFA55A2429E5EF00B761BA /* LightOffCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightOffCommand.h; sourceTree = "<group>"; };
+		8BDFA55B2429E5EF00B761BA /* LightOffCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightOffCommand.m; sourceTree = "<group>"; };
+		8BDFA55D2429E75100B761BA /* VideoPlayCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPlayCommand.h; sourceTree = "<group>"; };
+		8BDFA55E2429E75100B761BA /* VideoPlayCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlayCommand.m; sourceTree = "<group>"; };
+		8BDFA5602429EA4F00B761BA /* VideoCloseCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoCloseCommand.h; sourceTree = "<group>"; };
+		8BDFA5612429EA4F00B761BA /* VideoCloseCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoCloseCommand.m; sourceTree = "<group>"; };
+		8BDFA5632429EED300B761BA /* RemoteControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteControl.h; sourceTree = "<group>"; };
+		8BDFA5642429EED300B761BA /* RemoteControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteControl.m; sourceTree = "<group>"; };
+		8BDFA5662429EEED00B761BA /* EmptyCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmptyCommand.h; sourceTree = "<group>"; };
+		8BDFA5672429EEED00B761BA /* EmptyCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmptyCommand.m; sourceTree = "<group>"; };
+		8BDFA56A2429EF4F00B761BA /* RemoteConrol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteConrol.h; sourceTree = "<group>"; };
+		8BDFA56B2429EF4F00B761BA /* RemoteConrol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteConrol.m; sourceTree = "<group>"; };
+		8BDFA56D2429F5E000B761BA /* RemoteLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteLoader.h; sourceTree = "<group>"; };
+		8BDFA56E2429F5E000B761BA /* RemoteLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteLoader.m; sourceTree = "<group>"; };
+		8BDFA571242A070F00B761BA /* MenuComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuComponent.h; sourceTree = "<group>"; };
+		8BDFA572242A070F00B761BA /* MenuComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuComponent.m; sourceTree = "<group>"; };
+		8BDFA577242A094F00B761BA /* Menu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		8BDFA578242A094F00B761BA /* Menu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+		8BDFA57A242A1C0C00B761BA /* MenuItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuItem.h; sourceTree = "<group>"; };
+		8BDFA57B242A1C0C00B761BA /* MenuItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuItem.m; sourceTree = "<group>"; };
+		8BDFA57D242A260500B761BA /* MenuHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuHandler.h; sourceTree = "<group>"; };
+		8BDFA57E242A260500B761BA /* MenuHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -285,6 +328,8 @@
 		8BD8F6B12386372C0054CFD9 /* DesignPatternApp */ = {
 			isa = PBXGroup;
 			children = (
+				8BDFA570242A055100B761BA /* 组合模式 */,
+				8BDFA54F2429B58F00B761BA /* 命令模式 */,
 				8BD502C5239B4A0F008603EA /* 生成器模式 */,
 				8BD502B82398D9A4008603EA /* 中介者模式 */,
 				8BB048D2238FBFE6007C2C3F /* 工厂模式 */,
@@ -332,6 +377,49 @@
 				8B725EC0238BD24900ADC260 /* BirdPlant.m */,
 			);
 			path = "原型模式";
+			sourceTree = "<group>";
+		};
+		8BDFA54F2429B58F00B761BA /* 命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+				8BDFA5502429B5C600B761BA /* Light.h */,
+				8BDFA5512429B5C600B761BA /* Light.m */,
+				8BDFA5532429B6BF00B761BA /* Video.h */,
+				8BDFA5542429B6BF00B761BA /* Video.m */,
+				8BDFA5562429DD8000B761BA /* SwitchCommondInterface.h */,
+				8BDFA5572429E17A00B761BA /* LightOnCommand.h */,
+				8BDFA5582429E17A00B761BA /* LightOnCommand.m */,
+				8BDFA55A2429E5EF00B761BA /* LightOffCommand.h */,
+				8BDFA55B2429E5EF00B761BA /* LightOffCommand.m */,
+				8BDFA55D2429E75100B761BA /* VideoPlayCommand.h */,
+				8BDFA55E2429E75100B761BA /* VideoPlayCommand.m */,
+				8BDFA5602429EA4F00B761BA /* VideoCloseCommand.h */,
+				8BDFA5612429EA4F00B761BA /* VideoCloseCommand.m */,
+				8BDFA5632429EED300B761BA /* RemoteControl.h */,
+				8BDFA5642429EED300B761BA /* RemoteControl.m */,
+				8BDFA5662429EEED00B761BA /* EmptyCommand.h */,
+				8BDFA5672429EEED00B761BA /* EmptyCommand.m */,
+				8BDFA56A2429EF4F00B761BA /* RemoteConrol.h */,
+				8BDFA56B2429EF4F00B761BA /* RemoteConrol.m */,
+				8BDFA56D2429F5E000B761BA /* RemoteLoader.h */,
+				8BDFA56E2429F5E000B761BA /* RemoteLoader.m */,
+			);
+			path = "命令模式";
+			sourceTree = "<group>";
+		};
+		8BDFA570242A055100B761BA /* 组合模式 */ = {
+			isa = PBXGroup;
+			children = (
+				8BDFA571242A070F00B761BA /* MenuComponent.h */,
+				8BDFA572242A070F00B761BA /* MenuComponent.m */,
+				8BDFA577242A094F00B761BA /* Menu.h */,
+				8BDFA578242A094F00B761BA /* Menu.m */,
+				8BDFA57A242A1C0C00B761BA /* MenuItem.h */,
+				8BDFA57B242A1C0C00B761BA /* MenuItem.m */,
+				8BDFA57D242A260500B761BA /* MenuHandler.h */,
+				8BDFA57E242A260500B761BA /* MenuHandler.m */,
+			);
+			path = "组合模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -465,23 +553,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BB048E223911277007C2C3F /* CPU.m in Sources */,
+				8BDFA57C242A1C0C00B761BA /* MenuItem.m in Sources */,
 				8B725EC1238BD24900ADC260 /* BirdPlant.m in Sources */,
+				8BDFA579242A094F00B761BA /* Menu.m in Sources */,
 				8BD502A82397AC9F008603EA /* SqlServerUser.m in Sources */,
 				8BD8F6BA2386372C0054CFD9 /* ViewController.m in Sources */,
 				8BD502BB2398D9DD008603EA /* VideoCard.m in Sources */,
+				8BDFA55F2429E75100B761BA /* VideoPlayCommand.m in Sources */,
 				8BD502CC239B565D008603EA /* XmlBuilder.m in Sources */,
+				8BDFA5622429EA4F00B761BA /* VideoCloseCommand.m in Sources */,
 				8BD502AB2397AEC5008603EA /* AccessUser.m in Sources */,
 				8BB048EB239112F1007C2C3F /* AMDCpu.m in Sources */,
 				8BD8F6B42386372C0054CFD9 /* AppDelegate.m in Sources */,
 				8BB048DF23911202007C2C3F /* Client.m in Sources */,
 				8BD5029723975BF5008603EA /* IntelCpu1179.m in Sources */,
+				8BDFA5592429E17A00B761BA /* LightOnCommand.m in Sources */,
+				8BDFA5682429EEED00B761BA /* EmptyCommand.m in Sources */,
 				8BB048E523911285007C2C3F /* InterCpu.m in Sources */,
+				8BDFA5652429EED300B761BA /* RemoteControl.m in Sources */,
 				8BD502C42398DF29008603EA /* MainBoard.m in Sources */,
+				8BDFA56C2429EF4F00B761BA /* RemoteConrol.m in Sources */,
 				8BD502A223979F63008603EA /* IUser.m in Sources */,
 				8BD502BE2398DF0A008603EA /* CPU1.m in Sources */,
 				8BD502CF239B7DB0008603EA /* BuilderDirector.m in Sources */,
 				8BD5029123975023008603EA /* Factory.m in Sources */,
 				8BD8F6C52386372D0054CFD9 /* main.m in Sources */,
+				8BDFA573242A070F00B761BA /* MenuComponent.m in Sources */,
+				8BDFA57F242A260500B761BA /* MenuHandler.m in Sources */,
 				8BB048EE23911DAB007C2C3F /* SimpleFactory.m in Sources */,
 				8BD502AE2397B063008603EA /* SqlServerDepartment.m in Sources */,
 				8BD5029A23975C21008603EA /* intelCpu753.m in Sources */,
@@ -490,9 +588,13 @@
 				8BB048E8239112D6007C2C3F /* AppleCpu.m in Sources */,
 				8BD8F6B72386372C0054CFD9 /* SceneDelegate.m in Sources */,
 				8BD502B72398A274008603EA /* AccessFactory.m in Sources */,
+				8BDFA5522429B5C600B761BA /* Light.m in Sources */,
 				8BD502C12398DF15008603EA /* CDDriver.m in Sources */,
 				8B725EBE238BCF0D00ADC260 /* Mango.m in Sources */,
+				8BDFA56F2429F5E000B761BA /* RemoteLoader.m in Sources */,
+				8BDFA55C2429E5EF00B761BA /* LightOffCommand.m in Sources */,
 				8BD502C9239B53B7008603EA /* HtmlBuilder.m in Sources */,
+				8BDFA5552429B6BF00B761BA /* Video.m in Sources */,
 				8BD5029423975ADF008603EA /* IntelFactory.m in Sources */,
 				8BD502B12397B073008603EA /* AccessDepartment.m in Sources */,
 			);
