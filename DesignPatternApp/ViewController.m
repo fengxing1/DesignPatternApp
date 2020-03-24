@@ -27,6 +27,10 @@
 #import "RemoteLoader.h"
 #import "MenuHandler.h"
 
+#import "StragegyMinus.h"
+#import "StrategyDiscount.h"
+#import "PriceContext.h"
+
 @interface ViewController ()
 
 @end
@@ -36,7 +40,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self exampleComponent];
+    [self exampleStagety];
     
 }
 
@@ -110,4 +114,14 @@
 - (void)exampleComponent {
     [[[MenuHandler alloc] init] handle];
 }
+
+//策略模式
+- (void)exampleStagety {
+    NSDecimalNumber *price = [[NSDecimalNumber alloc] initWithDouble:200.2];
+    StragegyMinus *strategy1 = [[StragegyMinus alloc] init];
+    PriceContext *context = [[PriceContext alloc] initWithStrategy:strategy1];
+    NSDecimalNumber *resultPrice = [context quotePirce:price];
+    NSLog(@"优惠后的价格是：%@",resultPrice);
+}
+
 @end

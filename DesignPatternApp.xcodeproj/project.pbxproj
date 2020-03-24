@@ -57,6 +57,9 @@
 		8BDFA579242A094F00B761BA /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA578242A094F00B761BA /* Menu.m */; };
 		8BDFA57C242A1C0C00B761BA /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA57B242A1C0C00B761BA /* MenuItem.m */; };
 		8BDFA57F242A260500B761BA /* MenuHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA57E242A260500B761BA /* MenuHandler.m */; };
+		8BDFA584242A314200B761BA /* StragegyMinus.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA583242A314200B761BA /* StragegyMinus.m */; };
+		8BDFA587242A34AC00B761BA /* StrategyDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA586242A34AC00B761BA /* StrategyDiscount.m */; };
+		8BDFA58A242A35D100B761BA /* PriceContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA589242A35D100B761BA /* PriceContext.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -181,6 +184,13 @@
 		8BDFA57B242A1C0C00B761BA /* MenuItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuItem.m; sourceTree = "<group>"; };
 		8BDFA57D242A260500B761BA /* MenuHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuHandler.h; sourceTree = "<group>"; };
 		8BDFA57E242A260500B761BA /* MenuHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuHandler.m; sourceTree = "<group>"; };
+		8BDFA581242A2FDA00B761BA /* Strategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Strategy.h; sourceTree = "<group>"; };
+		8BDFA582242A314200B761BA /* StragegyMinus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StragegyMinus.h; sourceTree = "<group>"; };
+		8BDFA583242A314200B761BA /* StragegyMinus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StragegyMinus.m; sourceTree = "<group>"; };
+		8BDFA585242A34AC00B761BA /* StrategyDiscount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrategyDiscount.h; sourceTree = "<group>"; };
+		8BDFA586242A34AC00B761BA /* StrategyDiscount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyDiscount.m; sourceTree = "<group>"; };
+		8BDFA588242A35D100B761BA /* PriceContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriceContext.h; sourceTree = "<group>"; };
+		8BDFA589242A35D100B761BA /* PriceContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriceContext.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -328,6 +338,7 @@
 		8BD8F6B12386372C0054CFD9 /* DesignPatternApp */ = {
 			isa = PBXGroup;
 			children = (
+				8BDFA580242A2FA300B761BA /* 策略模式 */,
 				8BDFA570242A055100B761BA /* 组合模式 */,
 				8BDFA54F2429B58F00B761BA /* 命令模式 */,
 				8BD502C5239B4A0F008603EA /* 生成器模式 */,
@@ -420,6 +431,20 @@
 				8BDFA57E242A260500B761BA /* MenuHandler.m */,
 			);
 			path = "组合模式";
+			sourceTree = "<group>";
+		};
+		8BDFA580242A2FA300B761BA /* 策略模式 */ = {
+			isa = PBXGroup;
+			children = (
+				8BDFA581242A2FDA00B761BA /* Strategy.h */,
+				8BDFA582242A314200B761BA /* StragegyMinus.h */,
+				8BDFA583242A314200B761BA /* StragegyMinus.m */,
+				8BDFA585242A34AC00B761BA /* StrategyDiscount.h */,
+				8BDFA586242A34AC00B761BA /* StrategyDiscount.m */,
+				8BDFA588242A35D100B761BA /* PriceContext.h */,
+				8BDFA589242A35D100B761BA /* PriceContext.m */,
+			);
+			path = "策略模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -569,11 +594,13 @@
 				8BD5029723975BF5008603EA /* IntelCpu1179.m in Sources */,
 				8BDFA5592429E17A00B761BA /* LightOnCommand.m in Sources */,
 				8BDFA5682429EEED00B761BA /* EmptyCommand.m in Sources */,
+				8BDFA58A242A35D100B761BA /* PriceContext.m in Sources */,
 				8BB048E523911285007C2C3F /* InterCpu.m in Sources */,
 				8BDFA5652429EED300B761BA /* RemoteControl.m in Sources */,
 				8BD502C42398DF29008603EA /* MainBoard.m in Sources */,
 				8BDFA56C2429EF4F00B761BA /* RemoteConrol.m in Sources */,
 				8BD502A223979F63008603EA /* IUser.m in Sources */,
+				8BDFA584242A314200B761BA /* StragegyMinus.m in Sources */,
 				8BD502BE2398DF0A008603EA /* CPU1.m in Sources */,
 				8BD502CF239B7DB0008603EA /* BuilderDirector.m in Sources */,
 				8BD5029123975023008603EA /* Factory.m in Sources */,
@@ -590,6 +617,7 @@
 				8BD502B72398A274008603EA /* AccessFactory.m in Sources */,
 				8BDFA5522429B5C600B761BA /* Light.m in Sources */,
 				8BD502C12398DF15008603EA /* CDDriver.m in Sources */,
+				8BDFA587242A34AC00B761BA /* StrategyDiscount.m in Sources */,
 				8B725EBE238BCF0D00ADC260 /* Mango.m in Sources */,
 				8BDFA56F2429F5E000B761BA /* RemoteLoader.m in Sources */,
 				8BDFA55C2429E5EF00B761BA /* LightOffCommand.m in Sources */,
