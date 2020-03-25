@@ -31,6 +31,16 @@
 #import "StrategyDiscount.h"
 #import "PriceContext.h"
 
+#import "GroupDecorator.h"
+#import "MonthDecorator.h"
+#import "SumDecorator.h"
+#import "ConcreteComponent.h"
+
+#import "MessageSMS.h"
+#import "MessageDing.h"
+#import "SpecialMessage.h"
+#import "UrgentMessage.h"
+
 @interface ViewController ()
 
 @end
@@ -40,7 +50,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self exampleStagety];
+    [self exampleBridge];
     
 }
 
@@ -122,6 +132,28 @@
     PriceContext *context = [[PriceContext alloc] initWithStrategy:strategy1];
     NSDecimalNumber *resultPrice = [context quotePirce:price];
     NSLog(@"优惠后的价格是：%@",resultPrice);
+}
+
+//装饰器模式
+- (void)exampleDector {
+    //被装饰对象
+    ConcreteComponent *component = [[ConcreteComponent alloc] init];
+    //需要使用的装饰器
+    Decorator *d1 = [[MonthDecorator alloc] initWithComponent:component];
+    Decorator *d2 = [[SumDecorator alloc] initWithComponent:d1];
+    NSInteger salary1 = [d2 calculateSalary:10000 sumSales:200000];
+    NSLog(@"\n将近组合方式:当月销售奖金 + 累计销售奖金 \n 总工资 = %zd",salary1);
+    
+}
+
+//桥接模式
+- (void)exampleBridge {
+    //要处理的对象或内容
+    NSMutableString *msgContent = [[NSMutableString alloc] initWithString:@"有内鬼，终止交易"];
+    MessageSMS *sms = [[MessageSMS alloc] init];
+    MessageDing *ding = [[MessageDing alloc] init];
+    SpecialMessage *special = [[SpecialMessage alloc] initWithMsgTool:ding];
+    [special sendMsg:msgContent];
 }
 
 @end

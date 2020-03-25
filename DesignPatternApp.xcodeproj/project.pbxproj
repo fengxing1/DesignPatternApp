@@ -60,6 +60,17 @@
 		8BDFA584242A314200B761BA /* StragegyMinus.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA583242A314200B761BA /* StragegyMinus.m */; };
 		8BDFA587242A34AC00B761BA /* StrategyDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA586242A34AC00B761BA /* StrategyDiscount.m */; };
 		8BDFA58A242A35D100B761BA /* PriceContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA589242A35D100B761BA /* PriceContext.m */; };
+		8BDFA58E242B055100B761BA /* Component.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA58D242B055100B761BA /* Component.m */; };
+		8BDFA594242B06BA00B761BA /* ConcreteComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA593242B06BA00B761BA /* ConcreteComponent.m */; };
+		8BDFA597242B0A2500B761BA /* Decorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA596242B0A2500B761BA /* Decorator.m */; };
+		8BDFA59A242B357800B761BA /* GroupDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA599242B357800B761BA /* GroupDecorator.m */; };
+		8BDFA59D242B36AF00B761BA /* MonthDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA59C242B36AF00B761BA /* MonthDecorator.m */; };
+		8BDFA5A0242B3B6D00B761BA /* SumDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA59F242B3B6D00B761BA /* SumDecorator.m */; };
+		8BDFA5A5242B775300B761BA /* MessageSMS.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA5A4242B775300B761BA /* MessageSMS.m */; };
+		8BDFA5A8242B784700B761BA /* MessageDing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA5A7242B784700B761BA /* MessageDing.m */; };
+		8BDFA5AB242B78D300B761BA /* AbstraceMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA5AA242B78D300B761BA /* AbstraceMessage.m */; };
+		8BDFA5AE242B7BBE00B761BA /* SpecialMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA5AD242B7BBE00B761BA /* SpecialMessage.m */; };
+		8BDFA5B1242B7C6100B761BA /* UrgentMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA5B0242B7C6100B761BA /* UrgentMessage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -191,6 +202,29 @@
 		8BDFA586242A34AC00B761BA /* StrategyDiscount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyDiscount.m; sourceTree = "<group>"; };
 		8BDFA588242A35D100B761BA /* PriceContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriceContext.h; sourceTree = "<group>"; };
 		8BDFA589242A35D100B761BA /* PriceContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriceContext.m; sourceTree = "<group>"; };
+		8BDFA58C242B055100B761BA /* Component.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Component.h; sourceTree = "<group>"; };
+		8BDFA58D242B055100B761BA /* Component.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Component.m; sourceTree = "<group>"; };
+		8BDFA592242B06BA00B761BA /* ConcreteComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteComponent.h; sourceTree = "<group>"; };
+		8BDFA593242B06BA00B761BA /* ConcreteComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteComponent.m; sourceTree = "<group>"; };
+		8BDFA595242B0A2500B761BA /* Decorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Decorator.h; sourceTree = "<group>"; };
+		8BDFA596242B0A2500B761BA /* Decorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Decorator.m; sourceTree = "<group>"; };
+		8BDFA598242B357800B761BA /* GroupDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupDecorator.h; sourceTree = "<group>"; };
+		8BDFA599242B357800B761BA /* GroupDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupDecorator.m; sourceTree = "<group>"; };
+		8BDFA59B242B36AF00B761BA /* MonthDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonthDecorator.h; sourceTree = "<group>"; };
+		8BDFA59C242B36AF00B761BA /* MonthDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonthDecorator.m; sourceTree = "<group>"; };
+		8BDFA59E242B3B6D00B761BA /* SumDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SumDecorator.h; sourceTree = "<group>"; };
+		8BDFA59F242B3B6D00B761BA /* SumDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SumDecorator.m; sourceTree = "<group>"; };
+		8BDFA5A2242B76FD00B761BA /* MessageToolInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageToolInterface.h; sourceTree = "<group>"; };
+		8BDFA5A3242B775300B761BA /* MessageSMS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageSMS.h; sourceTree = "<group>"; };
+		8BDFA5A4242B775300B761BA /* MessageSMS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageSMS.m; sourceTree = "<group>"; };
+		8BDFA5A6242B784700B761BA /* MessageDing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageDing.h; sourceTree = "<group>"; };
+		8BDFA5A7242B784700B761BA /* MessageDing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageDing.m; sourceTree = "<group>"; };
+		8BDFA5A9242B78D300B761BA /* AbstraceMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstraceMessage.h; sourceTree = "<group>"; };
+		8BDFA5AA242B78D300B761BA /* AbstraceMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstraceMessage.m; sourceTree = "<group>"; };
+		8BDFA5AC242B7BBE00B761BA /* SpecialMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpecialMessage.h; sourceTree = "<group>"; };
+		8BDFA5AD242B7BBE00B761BA /* SpecialMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpecialMessage.m; sourceTree = "<group>"; };
+		8BDFA5AF242B7C6100B761BA /* UrgentMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UrgentMessage.h; sourceTree = "<group>"; };
+		8BDFA5B0242B7C6100B761BA /* UrgentMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UrgentMessage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -338,6 +372,8 @@
 		8BD8F6B12386372C0054CFD9 /* DesignPatternApp */ = {
 			isa = PBXGroup;
 			children = (
+				8BDFA5A1242B767000B761BA /* 桥接模式 */,
+				8BDFA58B242B051800B761BA /* 装饰模式 */,
 				8BDFA580242A2FA300B761BA /* 策略模式 */,
 				8BDFA570242A055100B761BA /* 组合模式 */,
 				8BDFA54F2429B58F00B761BA /* 命令模式 */,
@@ -445,6 +481,43 @@
 				8BDFA589242A35D100B761BA /* PriceContext.m */,
 			);
 			path = "策略模式";
+			sourceTree = "<group>";
+		};
+		8BDFA58B242B051800B761BA /* 装饰模式 */ = {
+			isa = PBXGroup;
+			children = (
+				8BDFA58C242B055100B761BA /* Component.h */,
+				8BDFA58D242B055100B761BA /* Component.m */,
+				8BDFA592242B06BA00B761BA /* ConcreteComponent.h */,
+				8BDFA593242B06BA00B761BA /* ConcreteComponent.m */,
+				8BDFA595242B0A2500B761BA /* Decorator.h */,
+				8BDFA596242B0A2500B761BA /* Decorator.m */,
+				8BDFA598242B357800B761BA /* GroupDecorator.h */,
+				8BDFA599242B357800B761BA /* GroupDecorator.m */,
+				8BDFA59B242B36AF00B761BA /* MonthDecorator.h */,
+				8BDFA59C242B36AF00B761BA /* MonthDecorator.m */,
+				8BDFA59E242B3B6D00B761BA /* SumDecorator.h */,
+				8BDFA59F242B3B6D00B761BA /* SumDecorator.m */,
+			);
+			path = "装饰模式";
+			sourceTree = "<group>";
+		};
+		8BDFA5A1242B767000B761BA /* 桥接模式 */ = {
+			isa = PBXGroup;
+			children = (
+				8BDFA5A2242B76FD00B761BA /* MessageToolInterface.h */,
+				8BDFA5A3242B775300B761BA /* MessageSMS.h */,
+				8BDFA5A4242B775300B761BA /* MessageSMS.m */,
+				8BDFA5A6242B784700B761BA /* MessageDing.h */,
+				8BDFA5A7242B784700B761BA /* MessageDing.m */,
+				8BDFA5A9242B78D300B761BA /* AbstraceMessage.h */,
+				8BDFA5AA242B78D300B761BA /* AbstraceMessage.m */,
+				8BDFA5AC242B7BBE00B761BA /* SpecialMessage.h */,
+				8BDFA5AD242B7BBE00B761BA /* SpecialMessage.m */,
+				8BDFA5AF242B7C6100B761BA /* UrgentMessage.h */,
+				8BDFA5B0242B7C6100B761BA /* UrgentMessage.m */,
+			);
+			path = "桥接模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -582,9 +655,12 @@
 				8B725EC1238BD24900ADC260 /* BirdPlant.m in Sources */,
 				8BDFA579242A094F00B761BA /* Menu.m in Sources */,
 				8BD502A82397AC9F008603EA /* SqlServerUser.m in Sources */,
+				8BDFA597242B0A2500B761BA /* Decorator.m in Sources */,
 				8BD8F6BA2386372C0054CFD9 /* ViewController.m in Sources */,
 				8BD502BB2398D9DD008603EA /* VideoCard.m in Sources */,
 				8BDFA55F2429E75100B761BA /* VideoPlayCommand.m in Sources */,
+				8BDFA5AE242B7BBE00B761BA /* SpecialMessage.m in Sources */,
+				8BDFA594242B06BA00B761BA /* ConcreteComponent.m in Sources */,
 				8BD502CC239B565D008603EA /* XmlBuilder.m in Sources */,
 				8BDFA5622429EA4F00B761BA /* VideoCloseCommand.m in Sources */,
 				8BD502AB2397AEC5008603EA /* AccessUser.m in Sources */,
@@ -595,14 +671,19 @@
 				8BDFA5592429E17A00B761BA /* LightOnCommand.m in Sources */,
 				8BDFA5682429EEED00B761BA /* EmptyCommand.m in Sources */,
 				8BDFA58A242A35D100B761BA /* PriceContext.m in Sources */,
+				8BDFA58E242B055100B761BA /* Component.m in Sources */,
 				8BB048E523911285007C2C3F /* InterCpu.m in Sources */,
 				8BDFA5652429EED300B761BA /* RemoteControl.m in Sources */,
+				8BDFA5A0242B3B6D00B761BA /* SumDecorator.m in Sources */,
+				8BDFA59D242B36AF00B761BA /* MonthDecorator.m in Sources */,
+				8BDFA5B1242B7C6100B761BA /* UrgentMessage.m in Sources */,
 				8BD502C42398DF29008603EA /* MainBoard.m in Sources */,
 				8BDFA56C2429EF4F00B761BA /* RemoteConrol.m in Sources */,
 				8BD502A223979F63008603EA /* IUser.m in Sources */,
 				8BDFA584242A314200B761BA /* StragegyMinus.m in Sources */,
 				8BD502BE2398DF0A008603EA /* CPU1.m in Sources */,
 				8BD502CF239B7DB0008603EA /* BuilderDirector.m in Sources */,
+				8BDFA5A8242B784700B761BA /* MessageDing.m in Sources */,
 				8BD5029123975023008603EA /* Factory.m in Sources */,
 				8BD8F6C52386372D0054CFD9 /* main.m in Sources */,
 				8BDFA573242A070F00B761BA /* MenuComponent.m in Sources */,
@@ -613,11 +694,14 @@
 				8BD502B423989EC8008603EA /* SqlServerFactory.m in Sources */,
 				8BD502A52397AC1F008603EA /* IDepartment.m in Sources */,
 				8BB048E8239112D6007C2C3F /* AppleCpu.m in Sources */,
+				8BDFA5AB242B78D300B761BA /* AbstraceMessage.m in Sources */,
 				8BD8F6B72386372C0054CFD9 /* SceneDelegate.m in Sources */,
 				8BD502B72398A274008603EA /* AccessFactory.m in Sources */,
 				8BDFA5522429B5C600B761BA /* Light.m in Sources */,
 				8BD502C12398DF15008603EA /* CDDriver.m in Sources */,
+				8BDFA59A242B357800B761BA /* GroupDecorator.m in Sources */,
 				8BDFA587242A34AC00B761BA /* StrategyDiscount.m in Sources */,
+				8BDFA5A5242B775300B761BA /* MessageSMS.m in Sources */,
 				8B725EBE238BCF0D00ADC260 /* Mango.m in Sources */,
 				8BDFA56F2429F5E000B761BA /* RemoteLoader.m in Sources */,
 				8BDFA55C2429E5EF00B761BA /* LightOffCommand.m in Sources */,
