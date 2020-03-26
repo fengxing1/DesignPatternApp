@@ -71,6 +71,10 @@
 		8BDFA5AB242B78D300B761BA /* AbstraceMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA5AA242B78D300B761BA /* AbstraceMessage.m */; };
 		8BDFA5AE242B7BBE00B761BA /* SpecialMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA5AD242B7BBE00B761BA /* SpecialMessage.m */; };
 		8BDFA5B1242B7C6100B761BA /* UrgentMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA5B0242B7C6100B761BA /* UrgentMessage.m */; };
+		8BDFA5B5242B83AA00B761BA /* Handler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA5B4242B83AA00B761BA /* Handler.m */; };
+		8BDFA5B8242B843400B761BA /* ProjectManagerHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA5B7242B843400B761BA /* ProjectManagerHandler.m */; };
+		8BDFA5BB242B849B00B761BA /* DepManagerHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA5BA242B849B00B761BA /* DepManagerHandler.m */; };
+		8BDFA5BE242B84F100B761BA /* GeneralManagerHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDFA5BD242B84F100B761BA /* GeneralManagerHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -225,6 +229,14 @@
 		8BDFA5AD242B7BBE00B761BA /* SpecialMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpecialMessage.m; sourceTree = "<group>"; };
 		8BDFA5AF242B7C6100B761BA /* UrgentMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UrgentMessage.h; sourceTree = "<group>"; };
 		8BDFA5B0242B7C6100B761BA /* UrgentMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UrgentMessage.m; sourceTree = "<group>"; };
+		8BDFA5B3242B83AA00B761BA /* Handler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Handler.h; sourceTree = "<group>"; };
+		8BDFA5B4242B83AA00B761BA /* Handler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Handler.m; sourceTree = "<group>"; };
+		8BDFA5B6242B843400B761BA /* ProjectManagerHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectManagerHandler.h; sourceTree = "<group>"; };
+		8BDFA5B7242B843400B761BA /* ProjectManagerHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectManagerHandler.m; sourceTree = "<group>"; };
+		8BDFA5B9242B849B00B761BA /* DepManagerHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepManagerHandler.h; sourceTree = "<group>"; };
+		8BDFA5BA242B849B00B761BA /* DepManagerHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DepManagerHandler.m; sourceTree = "<group>"; };
+		8BDFA5BC242B84F100B761BA /* GeneralManagerHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneralManagerHandler.h; sourceTree = "<group>"; };
+		8BDFA5BD242B84F100B761BA /* GeneralManagerHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneralManagerHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -372,6 +384,7 @@
 		8BD8F6B12386372C0054CFD9 /* DesignPatternApp */ = {
 			isa = PBXGroup;
 			children = (
+				8BDFA5B2242B837900B761BA /* 责任链模式 */,
 				8BDFA5A1242B767000B761BA /* 桥接模式 */,
 				8BDFA58B242B051800B761BA /* 装饰模式 */,
 				8BDFA580242A2FA300B761BA /* 策略模式 */,
@@ -520,6 +533,21 @@
 			path = "桥接模式";
 			sourceTree = "<group>";
 		};
+		8BDFA5B2242B837900B761BA /* 责任链模式 */ = {
+			isa = PBXGroup;
+			children = (
+				8BDFA5B3242B83AA00B761BA /* Handler.h */,
+				8BDFA5B4242B83AA00B761BA /* Handler.m */,
+				8BDFA5B6242B843400B761BA /* ProjectManagerHandler.h */,
+				8BDFA5B7242B843400B761BA /* ProjectManagerHandler.m */,
+				8BDFA5B9242B849B00B761BA /* DepManagerHandler.h */,
+				8BDFA5BA242B849B00B761BA /* DepManagerHandler.m */,
+				8BDFA5BC242B84F100B761BA /* GeneralManagerHandler.h */,
+				8BDFA5BD242B84F100B761BA /* GeneralManagerHandler.m */,
+			);
+			path = "责任链模式";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -650,6 +678,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BDFA5BE242B84F100B761BA /* GeneralManagerHandler.m in Sources */,
 				8BB048E223911277007C2C3F /* CPU.m in Sources */,
 				8BDFA57C242A1C0C00B761BA /* MenuItem.m in Sources */,
 				8B725EC1238BD24900ADC260 /* BirdPlant.m in Sources */,
@@ -664,6 +693,7 @@
 				8BD502CC239B565D008603EA /* XmlBuilder.m in Sources */,
 				8BDFA5622429EA4F00B761BA /* VideoCloseCommand.m in Sources */,
 				8BD502AB2397AEC5008603EA /* AccessUser.m in Sources */,
+				8BDFA5B8242B843400B761BA /* ProjectManagerHandler.m in Sources */,
 				8BB048EB239112F1007C2C3F /* AMDCpu.m in Sources */,
 				8BD8F6B42386372C0054CFD9 /* AppDelegate.m in Sources */,
 				8BB048DF23911202007C2C3F /* Client.m in Sources */,
@@ -703,7 +733,9 @@
 				8BDFA587242A34AC00B761BA /* StrategyDiscount.m in Sources */,
 				8BDFA5A5242B775300B761BA /* MessageSMS.m in Sources */,
 				8B725EBE238BCF0D00ADC260 /* Mango.m in Sources */,
+				8BDFA5BB242B849B00B761BA /* DepManagerHandler.m in Sources */,
 				8BDFA56F2429F5E000B761BA /* RemoteLoader.m in Sources */,
+				8BDFA5B5242B83AA00B761BA /* Handler.m in Sources */,
 				8BDFA55C2429E5EF00B761BA /* LightOffCommand.m in Sources */,
 				8BD502C9239B53B7008603EA /* HtmlBuilder.m in Sources */,
 				8BDFA5552429B6BF00B761BA /* Video.m in Sources */,

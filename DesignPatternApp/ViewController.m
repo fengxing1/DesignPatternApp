@@ -41,6 +41,10 @@
 #import "SpecialMessage.h"
 #import "UrgentMessage.h"
 
+#import "ProjectManagerHandler.h"
+#import "DepManagerHandler.h"
+#import "GeneralManagerHandler.h"
+
 @interface ViewController ()
 
 @end
@@ -50,7 +54,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self exampleBridge];
+    [self exampleChain];
     
 }
 
@@ -154,6 +158,16 @@
     MessageDing *ding = [[MessageDing alloc] init];
     SpecialMessage *special = [[SpecialMessage alloc] initWithMsgTool:ding];
     [special sendMsg:msgContent];
+}
+
+//责任链模式
+- (void)exampleChain {
+    ProjectManagerHandler *h1 = [[ProjectManagerHandler alloc] init];
+    DepManagerHandler *h2 = [[DepManagerHandler alloc] init];
+    GeneralManagerHandler *h3 = [[GeneralManagerHandler alloc] init];
+    h1.successor = h2;
+    h2.successor = h3;
+    [h1 handleRequest:10000];
 }
 
 @end
